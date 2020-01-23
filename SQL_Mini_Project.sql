@@ -21,7 +21,7 @@ f.membercost
 from country_club.Facilities f
 where f.membercost = 0
 
-order by 2
+order by 2 
 
 /* Q3: How can you produce a list of facilities that charge a fee to members,
 where the fee is less than 20% of the facility's monthly maintenance cost?
